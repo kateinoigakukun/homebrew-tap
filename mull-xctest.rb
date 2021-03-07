@@ -6,6 +6,6 @@ class MullXctest < Formula
   sha256 "2f26da6510a3b43a74ff095b6fc251a1e04b95f6d5f957d714357a1be2925d9f"
 
   def install
-    opt_prefix.install Dir["local/bin"]
+    prefix.install Dir["local/*"]
   end
 end
